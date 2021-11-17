@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Index</title>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/mapdata/custom/world.js"></script>
+    <script src="https://code.highcharts.com/js/themes/dark-unica.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</head>
+<body>
+<div class="header">
+    Splunk Data Visualization App
+</div>
+<div class="row">
+    <div id="client_location_container" class="client_location_container">
+    </div>
+    <div id="location_actions_container" class="column">
+    </div>
+
+    <div id="request_count_container" class="request_count_container">
+    </div>
+
+</div>
+<div class="footer">
+    Copyright or something
+</div>
+</body>
+</html>

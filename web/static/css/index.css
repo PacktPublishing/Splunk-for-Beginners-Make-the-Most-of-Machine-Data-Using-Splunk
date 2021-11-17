@@ -1,0 +1,43 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+}
+
+.client_location_container{
+    float: left;
+    width: 66.66%;
+}
+
+.request_count_container{
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
